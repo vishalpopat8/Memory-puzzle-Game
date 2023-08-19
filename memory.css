@@ -1,0 +1,125 @@
+@font-face {
+    font-family: AtariClassic;
+    src: url(fonts/AtariClassic-gry3.ttf);
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 750px;
+    margin: 0 auto;
+    padding: 0 2em 1em;
+    background-image: url(images/bg.jpg);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: lighten;
+    background-position: inherit;
+    background-size: cover;
+}
+
+h1 {
+    font-family: AtariClassic, Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: white;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+label {
+    float: left;
+    width: 8em;
+}
+
+input,
+select {
+    width: 10em;
+    margin: 0 1rem 1rem 1rem;
+}
+
+input[type="checkbox"] {
+    width: 2em;
+}
+
+header p {
+    margin: 0 2em 1em 0;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+#new_game,
+#player,
+#high_score,
+#correct {
+    float: left;
+}
+
+#player,
+#high_score,
+#correct {
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+.clear {
+    clear: both;
+}
+
+#error {
+    color: red;
+}
+
+.ui-widget-content,
+.ui-widget-header {
+    background: transparent !important;
+    border: none !important;
+    font-weight: 600;
+    /* text-wrap: nowrap; */
+    color: #000 !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    border-bottom-width: 1px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.ui-state-active,
+.ui-button:active {
+    border: 1px solid #744b29 !important;
+    background: #a37a4a !important;
+}
+
+.ui-widget {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.ui-selectmenu-button.ui-button {
+    margin: 0 0 1rem 1rem;
+    width: 10em;
+}
+
+#num_cards-menu li {
+    background: #fff;
+}
+
+#player_name {
+    width: 27%;
+    height: 25px;
+}
+
+#tabs-3 label:first-child {
+    padding-top: 5px;
+}
