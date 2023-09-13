@@ -10,7 +10,7 @@ Website Link:- https://vishalpopat8.github.io/Memory-puzzle-Game
 2. **Game Configuration**: Allow users to choose the number of cards for the game.
 3. **Player Name Entry**: Provide a text input field for players to enter their names before starting a game.
 4. **Memory Gameplay**: Click cards to unveil hidden images, verify matches, and briefly display them to aid player memory.
-5. **Scores**: Compute and display the player's score at the end of the game and their all-time highest score.
+5. **Scores**: Compute and display the player's score and their all-time highest score at the end of the game.
 
 # Technologies Used
 1. **Objects**: JavaScript objects to represent game elements, like cards and players, and manage game state.
@@ -19,7 +19,7 @@ Website Link:- https://vishalpopat8.github.io/Memory-puzzle-Game
 
 3. **Closure**: Encapsulate and secure game state through closures.
 
-4. **Module Pattern and IIFE**: Structure code modularly to prevent global variable clutter.
+4. **Module Pattern and IIFE**: Organize code modularly to avoid excessive use of global variables.
 
 5. **Classes**: Define game object structures and behaviours, including properties and methods.
 
