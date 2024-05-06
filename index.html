@@ -18,7 +18,12 @@
     <p id="correct">&nbsp;</p>
     <div class="clear"></div>
   </header>
-  <p>Please Select Name and Number of Cards in Settings</p>
+  <script>
+    // Check if session variables "player" and "cards" exist
+    if (!sessionStorage.getItem("player") && !sessionStorage.getItem("cards")) {
+      document.write('<p><strong>Note:-</strong> Please Select Name and Number of Cards in Settings</p>');
+    }
+  </script>
   <main>
     <div id="tabs">
       <ul>
